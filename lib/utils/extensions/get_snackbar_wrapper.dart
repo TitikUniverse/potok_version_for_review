@@ -1,0 +1,85 @@
+// import 'package:flutter/material.dart';
+// import 'package:get/get.dart';
+
+// extension ExtensionSnackbar on GetInterface {
+//   SnackbarController showSnack(
+//     BuildContext context,
+//     String title,
+//     String message, {
+//     Color? colorText,
+//     Duration? duration = const Duration(seconds: 3),
+
+//     /// with instantInit = false you can put snackbar on initState
+//     bool instantInit = true,
+//     SnackPosition? snackPosition,
+//     Widget? titleText,
+//     Widget? messageText,
+//     Widget? icon,
+//     bool? shouldIconPulse,
+//     double? maxWidth,
+//     EdgeInsets? margin,
+//     EdgeInsets? padding,
+//     double? borderRadius,
+//     Color? borderColor,
+//     double? borderWidth,
+//     Color? backgroundColor,
+//     Color? leftBarIndicatorColor,
+//     List<BoxShadow>? boxShadows,
+//     Gradient? backgroundGradient,
+//     TextButton? mainButton,
+//     OnTap? onTap,
+//     OnHover? onHover,
+//     bool? isDismissible,
+//     bool? showProgressIndicator,
+//     DismissDirection? dismissDirection,
+//     AnimationController? progressIndicatorController,
+//     Color? progressIndicatorBackgroundColor,
+//     Animation<Color>? progressIndicatorValueColor,
+//     SnackStyle? snackStyle,
+//     Curve? forwardAnimationCurve,
+//     Curve? reverseAnimationCurve,
+//     Duration? animationDuration,
+//     double? barBlur,
+//     double? overlayBlur,
+//     SnackbarStatusCallback? snackbarStatus,
+//     Color? overlayColor,
+//     Form? userInputForm
+//   }) {
+//     // var theme = PotokTheme.of(context);
+//     return Get.snackbar(
+//         title,
+//         message,
+//         snackPosition: snackPosition ?? SnackPosition.top,
+//         borderRadius: borderRadius ?? 15,
+//         margin: margin ?? const EdgeInsets.symmetric(horizontal: 10),
+//         duration: duration,
+//         barBlur: barBlur ?? 7.0,
+//         backgroundColor: backgroundColor ?? Colors.grey.withOpacity(0.2),
+//         icon: icon,
+//         shouldIconPulse: shouldIconPulse ?? true,
+//         maxWidth: maxWidth,
+//         padding: padding ?? const EdgeInsets.all(16),
+//         borderColor: borderColor,
+//         borderWidth: borderWidth,
+//         leftBarIndicatorColor: leftBarIndicatorColor,
+//         boxShadows: boxShadows,
+//         backgroundGradient: backgroundGradient,
+//         mainButton: mainButton,
+//         onTap: onTap,
+//         onHover: onHover,
+//         isDismissible: isDismissible ?? true,
+//         dismissDirection: dismissDirection,
+//         showProgressIndicator: showProgressIndicator ?? false,
+//         progressIndicatorController: progressIndicatorController,
+//         progressIndicatorBackgroundColor: progressIndicatorBackgroundColor,
+//         progressIndicatorValueColor: progressIndicatorValueColor,
+//         snackStyle: snackStyle ?? SnackStyle.floating,
+//         forwardAnimationCurve: forwardAnimationCurve ?? Curves.easeOutCirc,
+//         reverseAnimationCurve: reverseAnimationCurve ?? Curves.easeOutCirc,
+//         animationDuration: animationDuration ?? const Duration(seconds: 1),
+//         overlayBlur: overlayBlur ?? 0.0,
+//         overlayColor: overlayColor ?? Colors.transparent,
+//         userInputForm: userInputForm
+//     );
+//   }
+// }

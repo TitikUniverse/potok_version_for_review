@@ -1,0 +1,1 @@
+export './remote/friend_invations_remote_data_source.dart';

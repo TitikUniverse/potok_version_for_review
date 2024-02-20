@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1021972227529",
+    "project_id": "potokpush",
+    "storage_bucket": "potokpush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021972227529:android:1fdebf8f3a1c79fde4f418",
+        "android_client_info": {
+          "package_name": "ru.titikuniverse.potok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021972227529-q5hflffputcommh9mshgc4krd082e2ks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQKOyV6FHKH2-ZznLFpgqNZmMmI0tiroA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021972227529-q5hflffputcommh9mshgc4krd082e2ks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+name: potok
+description: Russian social web
+publish_to: 'none'
+version: 5.1.0+80
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  easy_localization: ^3.0.4
+  assorted_layout_widgets: ^8.0.5
+  appmetrica_plugin: ^1.4.0
+  package_info_plus: ^4.2.0
+  device_info_plus: ^9.1.0
+  onesignal_flutter: ^3.5.1
+  gif: ^2.3.0
+  dio: ^5.3.3
+  flutter_secure_storage: ^9.0.0
+  hive_flutter: ^1.1.0
+  equatable: ^2.0.5
+  get: ^5.0.0-release-candidate-5
+  uni_links: ^0.5.1
+  email_validator: ^2.1.17
+  salomon_bottom_bar: ^3.3.2
+  url_launcher: ^6.2.4
+  go_router: ^13.2.0
+  top_snackbar_flutter: ^3.1.0
+  extended_nested_scroll_view: ^6.2.1
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.9
+  photo_manager: ^3.0.0-dev.5
+  like_button: ^2.0.5
+  flutter_vibrate: ^1.3.0
+  adaptive_dialog: ^2.0.0
+  voice_message_package: ^2.1.4
+  dismissible_page: ^1.0.2
+  scrollable_positioned_list: ^0.3.8
+  titik_attachment_picker:
+    path: plugins/titik_attachment_picker
+  path_provider: ^2.1.2
+  light_compressor: ^2.2.0
+  flutter_video_info: ^1.3.1
+  flutter_image_compress: ^2.1.0
+  http_parser: ^4.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  icons_launcher: ^2.1.1 # dart run icons_launcher:create
+  change_app_package_name: ^1.1.0 # flutter pub run change_app_package_name:main com.new.package.name
+  logger: ^2.0.2+1
+
+icons_launcher:
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+  image_path: "assets/launchIcon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/translations/
+    - assets/emojies/
+    - assets/images/
+    - assets/animations/
+    - assets/icons/
+    - assets/icons/normal/
+    - assets/launchIcon.png
+
+  fonts:
+    - family: Cera Pro
+      fonts:
+        - asset: assets/fonts/cera pro/CeraPro-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/cera pro/CeraPro-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/cera pro/CeraPro-Light.ttf
+          weight: 300
+        - asset: assets/fonts/cera pro/CeraPro-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/cera pro/CeraPro-Regular.ttf
+        - asset: assets/fonts/cera pro/CeraPro-RegularItalic.ttf
+          style: italic
+        - asset: assets/fonts/cera pro/CeraPro-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/cera pro/CeraPro-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/cera pro/CeraPro-Black.ttf
+          weight: 900
+        - asset: assets/fonts/cera pro/CeraPro-BlackItalic.ttf
+          weight: 900
+          style: italic
+    - family: PotokCustomIcons
+      fonts:
+        - asset: lib/ui/widgets/potok_custom_icons/fonts/PotokCustomIcons.ttf
+    - family: Billabong
+      fonts:
+        - asset: assets/fonts/Billabong.ttf
+    - family: RateMeIcons
+      fonts:
+        - asset: assets/fonts/RateMeIcons.ttf
+    - family: Leto Text Sans Defect
+      fonts:
+        - asset: assets/fonts/Leto Text Sans Defect.otf

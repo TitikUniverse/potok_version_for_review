@@ -1,0 +1,72 @@
+{
+    "theme": {
+        "system": "Системная",
+        "dark": "Тёмная",
+        "light": "Светлая"
+    },
+    "errors": {
+        "oops": "Ой...",
+        "everything_is_bad": "Всё плохо",
+        "page_not_found": "Такой страницы не существует",
+        "error": "Ошибка",
+        "error_default": "Неизвестная ошибка, попробуйте снова",
+        "error_empty_field": "Обязательное поле",
+        "error_invalid_password": "Введите корректный пароль",
+        "error_invalid_username": "Можно только «_», «.», английский и цифры",
+        "error_enter_correct_email": "Введите корректный e\u2011mail",
+        "error_enter_correct_username": "Введите корректное имя пользователя",
+        "error_login_or_password": "Неверный логин или пароль",
+        "error_open_url": "Не удаётся открыть",
+        "error_connection": "Не удалось подключиться к серверу",
+        "server_is_offline": "Серверы Potok выключены.\nСкорее всего, в данный момент они обслуживаются.\nПопробуйте подключиться позже"
+    },
+    "auth": {
+        "after_performing_the_action_you_agree": "Нажимая «Войти», вы принимаете",
+        "user_agreement": "пользовательское соглашение",
+        "and": "и",
+        "privacy_policy": "политику конфиденциальности",
+        "sign_in": "Войти",
+        "username": "Имя пользователя",
+        "password": "Пароль",
+        "confirm_password": "Повторите пароль",
+        "create_new_account": "Зарегистрироваться",
+        "account_is_deleted": "Профиль удален. Обратитесь в поддержку для восстановления",
+        "come_up_with_a_username": "Придумайте имя пользователя",
+        "come_up_with_a_password": "Придумайте пароль",
+        "already_have_an_account": "Уже есть аккаунт",
+        "passwords_dont_match": "Пароли не совпадают",
+        "this_nickname_already_occupied": "Этот никнейм уже занят",
+        "successful_registration": "Успешная регистрация",
+        "welcome": "Добро пожаловать в Potok!",
+        "this_only_for_auth_users": "Этот раздел доступен только авторизованным пользователям",
+        "unauth_action_info": "Чтобы совершить это действие, необходимо войти в аккаунт.\nОткрыть страницу авторизации и регистрации?"
+    },
+    "action": {
+        "next": "Далее",
+        "back": "Назад",
+        "to_main_screen": "На главную",
+        "try_again": "Попробовать ещё раз"
+    },
+    "section": {
+        "main_tab": "Главная",
+        "recommendation_tab": "Реки",
+        "friends_tab": "Друзья",
+        "profile_tab": "Профиль"
+    },
+    "friend": {
+        "subscribe": "Подписаться",
+        "unsubscribe": "Отписаться",
+        "remove_from_friends": "Убрать из друзей",
+        "accept_as_friends": "Принять в друзья"
+    },
+    "messenger": {
+        "to_write": "Написать"
+    },
+    "user_content": {
+        "move_to_archive": "Архивировать",
+        "delete_post": "Удалить пост",
+        "complain": "Пожаловаться",
+        "post_moved_to_archive": "Публикация перемещена в архив",
+        "post_add_to_saved": "Вы добавили пост в сохраненные"
+    }
+}
